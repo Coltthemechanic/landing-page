@@ -3,3 +3,22 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:darkgreen;
 }
+header{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:space-between;
+    margin:12px;
+    padding:12px;
+    border:0;
+}
+.header-logo{
+align-self:flex-start;
+justify-content:flex-start;
+}
+.images{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
